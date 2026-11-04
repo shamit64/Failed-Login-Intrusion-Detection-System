@@ -1,0 +1,25 @@
+Nov  1 10:00:01 server sshd[1001]: Accepted publickey for alice from 10.0.0.5 port 50122 ssh2
+Nov  1 10:00:30 server sshd[1002]: Failed password for bob from 10.0.0.8 port 50200 ssh2
+Nov  1 10:01:00 server sshd[1003]: Accepted password for bob from 10.0.0.8 port 50201 ssh2
+Nov  1 10:05:00 server sshd[1010]: Failed password for root from 203.0.113.45 port 40001 ssh2
+Nov  1 10:05:04 server sshd[1011]: Failed password for root from 203.0.113.45 port 40002 ssh2
+Nov  1 10:05:09 server sshd[1012]: Failed password for root from 203.0.113.45 port 40003 ssh2
+Nov  1 10:05:13 server sshd[1013]: Failed password for root from 203.0.113.45 port 40004 ssh2
+Nov  1 10:05:18 server sshd[1014]: Failed password for root from 203.0.113.45 port 40005 ssh2
+Nov  1 10:05:22 server sshd[1015]: Failed password for root from 203.0.113.45 port 40006 ssh2
+Nov  1 10:05:40 server sshd[1016]: Accepted password for root from 203.0.113.45 port 40007 ssh2
+Nov  1 10:10:00 server sshd[1020]: Invalid user admin from 198.51.100.7 port 41000
+Nov  1 10:10:02 server sshd[1021]: Failed password for invalid user admin from 198.51.100.7 port 41000 ssh2
+Nov  1 10:10:05 server sshd[1022]: Failed password for invalid user test from 198.51.100.7 port 41001 ssh2
+Nov  1 10:10:08 server sshd[1023]: Failed password for invalid user oracle from 198.51.100.7 port 41002 ssh2
+Nov  1 10:10:11 server sshd[1024]: Failed password for invalid user ubuntu from 198.51.100.7 port 41003 ssh2
+Nov  1 10:20:00 server sshd[1030]: Failed password for carol from 192.0.2.11 port 42000 ssh2
+Nov  1 10:20:10 server sshd[1031]: Failed password for carol from 192.0.2.12 port 42001 ssh2
+Nov  1 10:20:20 server sshd[1032]: Failed password for carol from 192.0.2.13 port 42002 ssh2
+Nov  1 10:20:30 server sshd[1033]: Failed password for carol from 192.0.2.14 port 42003 ssh2
+Nov  1 10:30:00 server sshd[1040]: Failed password for dave from 10.0.0.9 port 43000 ssh2
+Nov  1 10:32:00 server sshd[1041]: Failed password for dave from 10.0.0.9 port 43001 ssh2
+Nov  1 10:34:00 server sshd[1042]: Failed password for dave from 10.0.0.9 port 43002 ssh2
+Nov  1 10:36:00 server sshd[1043]: Failed password for dave from 10.0.0.9 port 43003 ssh2
+Nov  1 10:38:00 server sshd[1044]: Failed password for dave from 10.0.0.9 port 43004 ssh2
+Nov  1 10:40:00 server CRON[1050]: pam_unix(cron:session): session opened for user root by (uid=0)
