@@ -2,7 +2,7 @@
 
 A lightweight, host-based **intrusion detection system (IDS)** written in Python that scans authentication logs for **repeated failed login attempts** and raises alerts for brute-force attacks, password spraying, targeted account attacks and — most importantly — **a successful login right after an attack**.
 
-No external libraries. One file. Runs on any Linux server with Python 3.7+.
+No external libraries. One file. Runs on Windows, Linux and macOS with Python 3.7+.
 
 ![Demo output](docs/demo_output.png)
 
@@ -26,11 +26,23 @@ No external libraries. One file. Runs on any Linux server with Python 3.7+.
 
 ## Quick start
 
+**Windows (PowerShell / Command Prompt)**
+
+```powershell
+git clone https://github.com/shamit64/Failed-Login-Intrusion-Detection-System.git
+cd Failed-Login-Intrusion-Detection-System
+python failed_login_ids.py sample_logs\sample_auth.log
+```
+
+**Linux / macOS**
+
 ```bash
 git clone https://github.com/shamit64/Failed-Login-Intrusion-Detection-System.git
 cd Failed-Login-Intrusion-Detection-System
 python3 failed_login_ids.py sample_logs/sample_auth.log
 ```
+
+You can analyse log files copied from any Linux server, or exported from your own applications, on a Windows machine.
 
 ## Usage
 
